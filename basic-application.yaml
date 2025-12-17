@@ -8,6 +8,7 @@ spec:
   source:
     repoURL: https://github.com/nguyenhcp2004/grade-api-gitops
     targetRevision: HEAD
+    path: .
     directory:
       include: "deployment.yaml"
   destination:
